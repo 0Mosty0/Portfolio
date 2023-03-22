@@ -25,7 +25,7 @@ let p9 = document.getElementById("p9");
 let htmlOnly = document.querySelector("p button:first-child");
 let cssOnly = document.querySelector("p button:nth-child(2)");
 let pythonOnly = document.querySelector("p button:nth-child(3)");
-let markdownOnly = document.querySelector("p button:nth-child(4)");
+let marckdownOnly = document.querySelector("p button:nth-child(4)");
 let proffessionelleOnly = document.querySelector("p button:nth-child(5)");
 
 

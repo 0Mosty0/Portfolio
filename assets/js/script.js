@@ -24,49 +24,63 @@ let p9 = document.getElementById("p9");
 //les 4 boutons de tri par langage
 let htmlOnly = document.querySelector("p button:first-child");
 let cssOnly = document.querySelector("p button:nth-child(2)");
-let jsOnly = document.querySelector("p button:nth-child(3)");
-let phpOnly = document.querySelector("p button:nth-child(4)");
+let pythonOnly = document.querySelector("p button:nth-child(3)");
+let markdownOnly = document.querySelector("p button:nth-child(4)");
+let proffessionelleOnly = document.querySelector("p button:nth-child(5)");
+
 
 htmlOnly.addEventListener("click", function() {
-	p1.style.display = "flex";
-	p2.style.display = "flex";
-	p3.style.display = "flex";
-	p4.style.display = "flex";
-	p5.style.display = "flex";
-	p6.style.display = "flex";
-	p7.style.display = "flex";
-	p8.style.display = "flex";
-	p9.style.display = "flex";
+	p1.style.display = "none";
+	p2.style.display = "none";
+	p3.style.display = "none";
+	p4.style.display = "none";
+	p5.style.display = "none";
+	p6.style.display = "none";
+	p7.style.display = "none";
+	p8.style.display = "none";
+	p9.style.display = "none";
 });
 
 cssOnly.addEventListener("click", function() {
-	p1.style.display = "flex";
-	p2.style.display = "flex";
-	p3.style.display = "flex";
-	p4.style.display = "flex";
-	p5.style.display = "flex";
-	p6.style.display = "flex";
-	p7.style.display = "flex";
-	p8.style.display = "none";
-	p9.style.display = "flex";
-});
-
-jsOnly.addEventListener("click", function() {
 	p1.style.display = "none";
-	p2.style.display = "flex";
+	p2.style.display = "none";
 	p3.style.display = "none";
-	p4.style.display = "flex";
-	p5.style.display = "flex";
+	p4.style.display = "none";
+	p5.style.display = "none";
 	p6.style.display = "none";
-	p7.style.display = "flex";
-	p8.style.display = "flex";
-	p9.style.display = "flex";
+	p7.style.display = "none";
+	p8.style.display = "none";
+	p9.style.display = "none";
 });
 
-phpOnly.addEventListener("click", function() {
+pythonOnly.addEventListener("click", function() {
 	p1.style.display = "none";
 	p2.style.display = "none";
 	p3.style.display = "flex";
+	p4.style.display = "none";
+	p5.style.display = "none";
+	p6.style.display = "none";
+	p7.style.display = "none";
+	p8.style.display = "none";
+	p9.style.display = "none";
+});
+
+marckdownOnly.addEventListener("click", function() {
+	p1.style.display = "none";
+	p2.style.display = "flex";
+	p3.style.display = "none";
+	p4.style.display = "none";
+	p5.style.display = "none";
+	p6.style.display = "none";
+	p7.style.display = "none";
+	p8.style.display = "none";
+	p9.style.display = "none";
+});
+
+proffessionelleOnly.addEventListener("click", function() {
+	p1.style.display = "flex";
+	p2.style.display = "none";
+	p3.style.display = "none";
 	p4.style.display = "none";
 	p5.style.display = "none";
 	p6.style.display = "none";

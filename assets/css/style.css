@@ -315,8 +315,8 @@ div.boutonLangage p.modalButton{ /*style général des boutons déclaratifs des 
 /*toutes les couleurs des boutons des langages présents dans les fenêtres modales*/
 div.boutonLangage p.modalButtonHtml{background-color: #463C4A;}
 div.boutonLangage p.modalButtonCss{background-color: #C42D76;}
-div.boutonLangage p.modalButtonJs{background-color: #2238BD;}
-div.boutonLangage p.modalButtonPhp{background-color: #0B1150;}
+div.boutonLangage p.modalButtonMd{background-color: #2238BD;}
+div.boutonLangage p.modalButtonPy{background-color: #0B1150;}
 
 
 em{

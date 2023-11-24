@@ -1,3 +1,2 @@
 # Portfolio_Rouges
-Voici mon portfolio 2022-2023
-Je suis actuellement en 1er année de l'IUT de Béziers en Réseaux et Télécommunication.
+Ceci est un portfolio, se site web est un CV un peu different. Je l'ai effectué avec html, css, js. 
